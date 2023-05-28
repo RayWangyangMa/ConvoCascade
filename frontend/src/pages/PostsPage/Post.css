@@ -1,0 +1,128 @@
+/* Post Styles */
+.post-container {
+	width: 600px;
+	background-color: #ffffff;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	display: flex;
+	flex-direction: column;
+}
+
+.post {
+	flex-grow: 1;
+}
+
+.post-username,
+.reply-username {
+	font-size: 0.9rem;
+	color: #444;
+	margin-bottom: 10px;
+}
+
+.post-topic {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #444;
+}
+
+.post-content {
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	color: #666;
+}
+
+.post-date,
+.reply-date {
+	font-size: 0.85rem;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.delete-post {
+	background-color: #f44336;
+	color: white;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin-top: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
+
+.delete-post:hover {
+	background-color: #e53935;
+}
+
+/* Reply Styles */
+.reply-container {
+	font-size: 1.2rem; /* Adjust this value to your desired font size */
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	color: #666;
+}
+
+/* Nested Replies and Reply Form Styles */
+.reply-container .reply-container {
+	margin-left: 30px;
+	background-color: #e6e6e6;
+	border: 1px solid #d0d0d0;
+}
+
+.nested-reply-form {
+	background-color: #f8f8f8;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 100%;
+	resize: vertical;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+button[type="submit"] {
+	background-color: #548385;
+	color: white;
+	padding: 6px 12px;
+	margin-top: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
+
+button[type="submit"]:hover {
+	background-color: #43a047;
+}
+
+/* Button Styles */
+button {
+	font-size: 0.9rem;
+	padding: 6px 12px;
+	margin-top: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+/* Show/Hide Replies Button */
+.show-hide-replies {
+	background-color: #3f51b5;
+	color: white;
+}
+
+.show-hide-replies:hover {
+	background-color: #3949ab;
+}

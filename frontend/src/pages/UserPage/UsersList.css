@@ -1,0 +1,90 @@
+/* index.css */
+.users-table {
+	border-collapse: separate;
+	border-spacing: 0;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+.users-table th,
+.users-table td {
+	padding: 8px;
+	text-align: left;
+	position: relative;
+}
+
+.users-table th {
+	background-color: #f2f2f2;
+	color: #333;
+	font-weight: bold;
+}
+
+.users-table td {
+	border-bottom: 1px solid #ccc;
+}
+
+.users-table .action-cell {
+	text-align: center;
+}
+
+.users-table .action-cell button {
+	background-color: #548385;
+	color: white;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin-left: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.users-table .action-cell button:hover {
+	background-color: #e53935;
+}
+/* index.css */
+.users-table {
+	border-collapse: separate;
+	border-spacing: 0;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+.users-table th,
+.users-table td {
+	padding: 8px;
+	text-align: left;
+	position: relative;
+}
+
+.users-table th {
+	background-color: #f2f2f2;
+	color: #333;
+	font-weight: bold;
+}
+
+.users-table td {
+	border-bottom: 1px solid #ccc;
+}
+
+.users-table .action-cell {
+	text-align: center;
+}
+
+.users-table .action-cell button {
+	background-color: #548385;
+	color: white;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin-left: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.users-table .action-cell button:hover {
+	background-color: #e53935;
+}

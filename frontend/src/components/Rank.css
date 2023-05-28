@@ -1,0 +1,58 @@
+/* Rank.css */
+.rank {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rank-container {
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	flex: 1;
+	margin-right: 10px;
+}
+
+.rank-container:last-child {
+	margin-right: 0;
+}
+
+.rank h2 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+.rank ol {
+	list-style: none;
+	counter-reset: li;
+	padding-left: 0;
+}
+
+.rank li {
+	font-size: 16px;
+	padding-left: 20px;
+	color: #555;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.rank li:before {
+	counter-increment: li;
+	content: counter(li);
+	position: absolute;
+	left: 0;
+	font-size: 14px;
+	color: #999;
+}

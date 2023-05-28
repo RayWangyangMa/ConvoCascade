@@ -1,0 +1,36 @@
+.like-dislike-buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 170px;
+	margin-top: 10px;
+}
+
+.like-buttons button,
+.dislike-buttons button {
+	padding: 6px 12px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	font-size: 14px;
+	transition: background-color 0.2s ease-in-out;
+	width: 70px;
+	text-align: center;
+}
+
+.like-buttons button {
+	background-color: #28a745;
+	color: white;
+}
+
+.dislike-buttons button {
+	background-color: #dc3545;
+	color: white;
+}
+
+.like-buttons button:hover {
+	background-color: #218838;
+}
+
+.dislike-buttons button:hover {
+	background-color: #c82333;
+}
